@@ -1,0 +1,579 @@
+.header {
+    background-image: url('background\ header.png');
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90%px;
+    padding-bottom: 0px;
+    background-position: center top;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    margin: 0px;
+    margin-bottom: 200px;
+}
+
+.header button {
+    background-color: green;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-style: none;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+.textShadow {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.main-menu ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li {
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main-menu ul li:last-child {
+    margin-right: 0;
+}
+
+.main-menu ul li:hover {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.container button {
+    background-color: green;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.main-menu a,
+.button a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 0px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.bottom-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.tex {
+    color: #A18268;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.gt {
+    color: green;
+}
+
+.wt {
+    color: white;
+}
+
+.logo a:hover,
+.buttona a:hover {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.mb {
+    font-size: 100px;
+    text-align: center;
+    padding: 100px;
+}
+
+.hfooter {
+    background-color: green;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-position: bottom center;
+    padding: 20px 0;
+    max-height: 20px;
+    margin: 0 auto;
+}
+
+.foot-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.foot-menu ul li {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 150px;
+    color: white;
+}
+
+.foot-menu ul li:last-child {
+    margin-right: 0;
+}
+
+.traditions {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 1205px;
+    height: 466px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.traditions img {
+    max-width: 50%;
+    margin-left: 20px;
+    width: 466;
+    height: 606px;
+}
+
+.traditions .text {
+    flex: 1;
+}
+
+.traditions h2 {
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.traditions p {
+    font-size: 20px;
+    margin: 0;
+    color: #000000;
+}
+
+/*cocks*/
+.cooks {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 1256px;
+    height: 654px;
+    text-align: center;
+}
+
+.cooks h2 {
+    align-items: center;
+    align-self: flex-start;
+    text-align: top center;
+    margin-bottom: 70px;
+    font-size: 50px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item img {
+    margin-left: 170px;
+    margin-right: 20px;
+    width: 241px;
+    height: 390px;
+}
+
+.item .text {
+    flex: 1;
+}
+
+.item h1 {
+    text-align: left;
+}
+
+.item p {
+    font-size: 16px;
+    margin: 0;
+    text-align: left;
+}
+
+/*formats */
+.formats {
+    margin: 0 auto;
+    width: 1470px;
+    height: 651px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    align-items: center;
+    position: relative;
+}
+
+.formats .text {
+    flex: 1;
+}
+
+.formats h2 {
+    margin-bottom: 70px;
+    font-size: 50px;
+}
+
+.formats .blocks {
+    display: grid;
+    place-items: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.walrus {
+    margin-left: 150px;
+    width: 349px;
+    height: 454px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-image: url("walrus.png");
+    background-size: 349px;
+    border-radius: 10px;
+    margin-right: 100px;
+    text-align: left;
+}
+
+.walrus h1 {
+    padding-left: 20px;
+    padding-top: 230px;
+    font-style: italic;
+}
+
+.walrus p {
+
+    padding-left: 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.horseshoe {
+    width: 349px;
+    height: 454px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-image: url("horseshoe.png");
+    background-size: 349px;
+    border-radius: 10px;
+    text-align: left;
+    margin-right: 100px;
+}
+
+.horseshoe h1 {
+    padding-left: 20px;
+    padding-top: 230px;
+    font-style: italic;
+}
+
+.horseshoe p {
+    padding-left: 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.handlebar {
+    width: 349px;
+    height: 454px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-image: url("handlebar.png");
+    background-size: 349px;
+    border-radius: 10px;
+    margin-right: 150px;
+    text-align: left;
+}
+
+.handlebar h1 {
+    padding-left: 20px;
+    padding-top: 230px;
+    font-style: italic;
+}
+
+.handlebar p {
+    padding-left: 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.prevBtn,
+.nextBtn {
+    position: absolute;
+    /* Абсолютное позиционирование */
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.prevBtn {
+    left: 0;
+}
+
+.nextBtn {
+    right: 0;
+}
+
+/*registration*/
+.registration {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 1240px;
+    height: 600px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.registration img {
+    max-width: 50%;
+    margin-left: 20px;
+    width: 603px;
+    height: 595px;
+}
+
+.registration .text {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.registration h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.registration p {
+    text-align: left;
+    font-size: 15px;
+}
+
+.registration button {
+    background-color: green;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-style: none;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+
+.registration a {
+    color: black;
+}
+
+
+.registration .centered {
+    text-align: center;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 30px;
+}
+
+.registration input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #A18268;
+    border-radius: 20px;
+}
+
+.registration input::placeholder {
+    color: #A18268;
+}
+
+/*footer*/
+.footer {
+    
+    background-image: url('footer.png');
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-position: center bottom;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+.logo {
+    float: left;
+}
+
+.container {
+    padding-top: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top center;
+}
+
+.bottom-menu ul:first-of-type {
+    margin-left: 100px;
+}
+
+.bottom-menu ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+}
+
+.bottom-menu ul li {
+    padding-bottom: 20px;
+}
+
+.bottom-menu ul li:last-child {
+    margin-right: 0;
+}
+
+.bottom-menu ul a:hover {
+    text-shadow: 4px 4px 2px #000000;
+}
+
+.bottom-menu ul .adress a:hover {
+    text-shadow: 4px 4px 2px #000000;
+}
+
+
+/*modal window*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.modal p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.modal button {
+    background-color: green;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-style: none;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.modal a {
+    color: black;
+}
+
+.modal .centered {
+    text-align: center;
+}
+
+.modalform {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 30px;
+}
+
+.modal input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #A18268;
+    border-radius: 20px;
+}
+
+.modal input::placeholder {
+    color: #A18268;
+}
+
+/* Modal Content */
+.modal-content {
+    overflow: hidden;
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 880px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    position:relative;
+}
+
+.modal-content img{
+    display: flex  ;
+    float: right;
+    width: 10%;
+    height: 50%;
+    display: flex;
+    transform: rotate(315deg);
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+}
+
+/* Centered Text */
+.centered {
+    text-align: center;
+}
